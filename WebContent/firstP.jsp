@@ -108,12 +108,21 @@ option{
 </style>
 </head>
 <body>
+ 
  <nav class="navbar">
         <div class="logo"><img src="icons8-worker-100.png"  alt="1"></div>
+       
+        
+        
         <div class="navbar-btns">
-            <button class="Sign" onclick="location.href='#'">Sign Up</button>
-            <button class="log" onclick="location.href='#'">Login</button>
+        <form action="firstP" method="post">
+            <button name="action" id="button1" type="submit" class="Sign" value="login" >Sign Up</button>
+         </form>
+         <form action="firstP" method="post">
+            <button name="action" id="button2" type="submit" class="log" value="sign" >Login</button>
+          </form>
         </div>
+        
     </nav>
     <div class="maai">
         <h1 id="lok">LOOKING FOR </br> A WORKER ?</h1>
@@ -126,5 +135,6 @@ option{
             </c:forEach>
         </select>
     </div>
+    
 </body>
 </html>

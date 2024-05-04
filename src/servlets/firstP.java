@@ -44,7 +44,16 @@ public class firstP extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		doGet(request, response);
+		String action = request.getParameter("action");
+		 if ("login".equals(action)) {
+		        // Redirect to page1
+		        response.sendRedirect("register.jsp"); // Change "page1.jsp" to your desired page
+		   } else if ("sign".equals(action)) {
+		        // Redirect to page2
+		        response.sendRedirect("login.jsp"); // Change "page2.jsp" to your desired page
+		   }
+		
+		
 	}
 	//com
 
