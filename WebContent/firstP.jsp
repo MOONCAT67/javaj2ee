@@ -110,7 +110,7 @@ option{
 <body>
  
  <nav class="navbar">
-        <div class="logo"><img src="icons8-worker-100.png"  alt="1"></div>
+        <div class="logo"><img src=""C:\Users\21653\Downloads\worker_beard_1.png""  alt="1"></div>
        
         
         
