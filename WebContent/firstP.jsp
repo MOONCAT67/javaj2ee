@@ -8,6 +8,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<link rel="icon" type="image/png" href="${pageContext.request.contextPath}/resourse/ret.png"></link>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>welcome</title>
 <style>
@@ -15,8 +16,8 @@ body{
     background-color: #5F5F5F;
 }
 img{
-    height: 50%;
-    width: 50%;
+    height: 35%;
+    width: 35%;
     margin-left: 20px;
 }
 .navbar {
@@ -110,13 +111,17 @@ option{
 <body>
  
  <nav class="navbar">
+<<<<<<< HEAD
         <div class="logo"><img src=""C:\Users\21653\Downloads\worker_beard_1.png""  alt="1"></div>
+=======
+        <div class="logo"><img src="resourse/ret.png"  alt="1"></div>
+>>>>>>> branch 'master' of https://github.com/MOONCAT67/javaj2ee
        
         
         
         <div class="navbar-btns">
         <form action="firstP" method="post">
-            <button name="action" id="button1" type="submit" class="Sign" value="login" >Sign Up</button>
+     <button name="action" id="button1" type="submit" class="Sign" value="login" >Sign Up</button>
          </form>
          <form action="firstP" method="post">
             <button name="action" id="button2" type="submit" class="log" value="sign" >Login</button>
