@@ -111,11 +111,11 @@ option{
 <body>
  
  <nav class="navbar">
-<<<<<<< HEAD
+
         <div class="logo"><img src=""C:\Users\21653\Downloads\worker_beard_1.png""  alt="1"></div>
-=======
+
         <div class="logo"><img src="resourse/ret.png"  alt="1"></div>
->>>>>>> branch 'master' of https://github.com/MOONCAT67/javaj2ee
+
        
         
         

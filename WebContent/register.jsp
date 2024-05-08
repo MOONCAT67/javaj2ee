@@ -254,7 +254,7 @@
         <div class="worker-beard">
         </div>
       </div>
-      <form action="login.jsp" method="post"> <!-- Formulaire -->
+      <form action="/servlets/RegisterServlet" method="post"> <!-- Formulaire -->
         <div class="group-18">
           <input type="text" class="full-name" name="full-name" placeholder="FULL NAME" style="background-color: #393939;"> <!-- Champ de saisie pour le nom complet -->
           <div class="line-4">
